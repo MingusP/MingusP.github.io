@@ -24,23 +24,31 @@
             font-size:18px;
             }
         
-         #foto2 {
+         .foto2 {
             float: right;
             width: 400px; 
             margin-top: 10px;
+             transition: 1s;
             }
+        .foto2:hover {
+            transform: rotate(360deg);
+        }
           
-         #foto3 {
+         .foto3 {
             float: right;
             width: 400px; 
+             transition: 1s;
             }
+        .foto3:hover {
+            transform: rotate(360deg);
+        }
     </style>
     <body>
         <div>
         <h1>
             De legende
         </h1>
-             <img  src="site_foto3.jpg" id="foto3">
+             <img  src="site_foto3.jpg" class="foto3">
             <p id="p2">
                 Hoewel de meeste katten wel iets mysterieus hebben zijn er maar weinig rassen die kunnen bogen op een eigen legende.<br>
 
@@ -58,7 +66,7 @@
                 <br>
                 <a href="sitep1.html"s>terug</a>
             </p>
-                <img  src="site_foto2.jpg" id="foto2">
+                <img  src="site_foto2.jpg" class="foto2">
 
         </div>
     </body>
